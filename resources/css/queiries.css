@@ -1,0 +1,233 @@
+/* Responsive layout */
+
+@media only screen and (max-width: 1200px) {
+    .hero-text-box,
+    nav,
+    .section-features,
+    .section-steps,
+    .section-city,
+    .testimonials-row,
+    .full-plans,
+    .section-form,
+    .main-footer {
+        width: 100%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .hero-text-box {
+        width: 96%;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 200%;
+    }
+
+    .main-nav li {
+        margin-left: 20px;
+    }
+
+    .long-copy {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .section-features .col {
+        width: 49.2%;
+        margin-left: 1.6%;
+    }
+
+    .section-features .col:nth-child(odd) {
+        margin-left: 0;
+    }
+
+    .meals-showcase li {
+        width: 25%;
+    }
+
+    .section-features,
+    .section-city {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .section-city img {
+        width: 100%;
+        height: auto;
+    }
+
+    .section-city .col {
+        width: 49.2%;
+        
+        margin-left: 1.6%;
+        padding: 0 1%;
+    }
+
+    .section-city .col:nth-child(odd) {
+        margin-left: 0;
+    }
+
+    .contact-form {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .logo {
+        height: 70px;
+    }
+
+    nav {
+        padding-top: 10px;
+    }
+
+    .main-nav {
+        float: none;
+        clear: both;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .main-nav li {
+        margin: 0 8px 10px;
+    }
+
+    .main-nav li a {
+        font-size: 75%;
+    }
+
+    h1 {
+        font-size: 160%;
+    }
+
+    .hero-text-box {
+        top: 55%;
+    }
+
+    .btn:link,
+    .btn:visited {
+        padding: 8px 18px;
+    }
+
+    .section-features,
+    .section-city,
+    .testimonials,
+    .section-form {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .row h2,
+    .city-row h2 {
+        font-size: 135%;
+    }
+
+    .span_1_of_2,
+    .span_1_of_3,
+    .span_2_of_3,
+    .span_1_of_4 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .section-features .col,
+    .meals-showcase li {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .col {
+        padding: 5% 2%;
+    }
+
+    .section-city .col {
+        width: 100%;
+        padding: 5% 2%;
+        margin-left: 0;
+    }
+
+    .steps-box:last-child {
+        margin-top: 30px;
+    }
+
+    .app-screen {
+        width: 50%;
+    }
+
+    .step-row {
+        padding-top: 0;
+    }
+
+    .plan-box {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    footer {
+        padding: 30px 2%;
+    }
+
+    .footer-nav,
+    .social-links {
+        float: none;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        font-size: 16px;
+    }
+
+    .hero-text-box {
+        top: 58%;
+    }
+
+    h1 {
+        font-size: 135%;
+    }
+
+    .hero-text-box .btn {
+        display: block;
+        width: max-content;
+        margin: 0 auto 12px;
+    }
+
+    .row h2,
+    .city-row h2 {
+        font-size: 120%;
+    }
+
+    .long-copy {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .works-step p {
+        font-size: 1rem;
+    }
+
+    .app-screen {
+        width: 70%;
+    }
+
+    .btn-app img {
+        height: 60px;
+    }
+
+    .plan-box .plan-price {
+        font-size: 240%;
+    }
+}
+
